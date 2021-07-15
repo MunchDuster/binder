@@ -8,28 +8,31 @@
     </head>
     <body>
         
-            <!-- Table is one row for all of the different webpages-->
+        <!-- Table is one row for all of the different webpages-->
+        <div style="text-align: center; background-color: rgb(230, 230, 230); border-bottom: 4px solid rgb(51, 51, 51);">
             <table style="table-layout: fixed; width:100%;">
-                
-                <tr>    
+                <tr>
                     <td><button class="HeaderButton" linkURL="https://munchduster.github.io/enigma" onclick="openPage(this);">enigma</button></td>
                     <td><button class="HeaderButton" linkURL="https://munchduster.github.io/clockify" onclick="openPage(this);">clockify</button></td>
                     <td><button class="HeaderButton" linkURL="https://munchduster.github.io/textify" onclick="openPage(this);">textify</button></td>
                     <td><button class="HeaderButton" linkURL="https://munchduster.github.io/imagify" onclick="openPage(this);">imagify</button></td>
                     <td><button class="HeaderButton" linkURL="https://munchduster.github.io/speakify" onclick="openPage(this);">speakify</button></td>
                     <td><button class="HeaderButton" linkURL="https://munchdusters-games.herokuapp.com" onclick="openPage(this);">games</button></td>
-                    <td><button class="HeaderButton" linkURL="https://munchdusters-cat-room.herokuapp.com" onclick="openPage(this);">chat room</button></td>
+                    <td><button class="HeaderButton" linkURL="https://munchdusters-chat-room.herokuapp.com" onclick="openPage(this);">chat room</button></td>
                 </tr>
             </table>
-            <div class="iframe-parent">
-                <iframe id="iframe" onload="onIframeLoad();"></iframe>
-                <div id="cover" class="loading-cover">
-                    <div class="center-text">
-                         <div id="funfact"></div>
-                        <button class="ContinueButton" onclick="onContinue();">Continue</button>
-                    </div>
+            <h1 id="header" class="header">Page Name</h1>
+            <h3 class="link"><a id="link"  href="link">link</a></h3>
+        </div>
+        <div class="iframe-parent">
+            <iframe id="iframe" onload="onIframeLoad();" src="https://munchduster.github.io/enigma"></iframe>
+            <div id="cover" class="loading-cover">
+                <div class="center-text">
+                     <div id="funfact"></div>
+                    <button class="ContinueButton" id="continue-button" onclick="onContinue();">Continue</button>
                 </div>
             </div>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>
