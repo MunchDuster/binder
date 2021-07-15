@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="mememan.png" />
+        <link rel="stylesheet" href="style.css">
+        
+        <title>Binder</title>
+    </head>
+    <body>
+        
+            <!-- Table is one row for all of the different webpages-->
+            <table style="table-layout: fixed; width:100%;">
+                
+                <tr>    
+                    <td><button class="HeaderButton" linkURL="https://munchduster.github.io/enigma" onclick="openPage(this);">enigma</button></td>
+                    <td><button class="HeaderButton" linkURL="https://munchduster.github.io/clockify" onclick="openPage(this);">clockify</button></td>
+                    <td><button class="HeaderButton" linkURL="https://munchduster.github.io/textify" onclick="openPage(this);">textify</button></td>
+                    <td><button class="HeaderButton" linkURL="https://munchduster.github.io/imagify" onclick="openPage(this);">imagify</button></td>
+                    <td><button class="HeaderButton" linkURL="https://munchduster.github.io/speakify" onclick="openPage(this);">speakify</button></td>
+                    <td><button class="HeaderButton" linkURL="https://munchdusters-games.herokuapp.com" onclick="openPage(this);">games</button></td>
+                    <td><button class="HeaderButton" linkURL="https://munchdusters-cat-room.herokuapp.com" onclick="openPage(this);">chat room</button></td>
+                </tr>
+            </table>
+            <div class="iframe-parent">
+                <iframe id="iframe" onload="onIframeLoad();"></iframe>
+                <div id="cover" class="loading-cover">
+                    <div class="center-text">
+                         <div id="funfact"></div>
+                        <button class="ContinueButton" onclick="onContinue();">Continue</button>
+                    </div>
+                </div>
+            </div>
+        <script src="script.js"></script>
+    </body>
+</html>
