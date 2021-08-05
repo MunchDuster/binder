@@ -1,96 +1,121 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 
-iframe{
-    position: absolute;
-    top:150px;
-    left: 0px;
-    width: 100%;
-    height: calc(100% - 150px);
-    
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
+iframe {
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  width: 100%;
+  height: calc(100% - 150px);
+
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
 }
-.iframe-parent{
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
+.iframe-parent {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
 }
-.HeaderButton{
-    width: 100%;
-    height: 100%;
-    height: 40px;
-    font-size: 20px;
-    text-align: center;
-    margin: 5px 0px;
-    border: none;
-    font-family: 'Varela Round';
-    padding: 5px 0px;
-    background: none;
+.HeaderButton {
+  width: 100%;
+  height: 100%;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  margin: 5px 0px;
+  border: none;
+  font-family: "Varela Round";
+  padding: 5px 0px;
+  background: none;
 }
-td{
-    border-bottom: 3px solid rgb(29, 29, 29);
-    background-color: rgb(206, 206, 206);
+td {
+  border-bottom: 3px solid rgb(29, 29, 29);
+  background-color: rgb(206, 206, 206);
 }
-td:hover{
-    background-color: rgb(179, 179, 179);
+td:hover {
+  background-color: rgb(179, 179, 179);
 }
-body{
-    border: 0px;
-    margin: 0px;
-    padding: 0px;
+body {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
 }
-.loading-cover{
-    position: absolute;
-    display: none;
-    top:150px;
-    left: 0px;
-    width: 100%;
-    height: calc(100% - 150px);
-    background-color: rgb(102, 102, 102);
-    z-index: 100000;
+.loading-cover {
+  position: absolute;
+  display: none;
+  top: 150px;
+  left: 0px;
+  width: 100%;
+  height: calc(100% - 150px);
+  background-color: rgb(102, 102, 102);
+  z-index: 100000;
 }
-.center-text{
-    position: absolute;
-    top: 50%;
-    left:50%;
-    width: max-content;
-    max-width: calc(100% - 40px);
-    transform: translate(-50%, -50%);
-    font-size: 30px;
-    color: white;
-    font-family: 'Varela Round';
-    text-align: -webkit-center;
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: max-content;
+  max-width: calc(100% - 40px);
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+  font-family: "Varela Round";
+  text-align: -webkit-center;
 }
-.ContinueButton{    
-    width: 200px;
-    border: none;
-    
-    height: 50px;
-    font-size: 20px;
-    color: white;
-    font-family: 'Varela Round';
-    background-color: rgb(111, 182, 111);
+.ContinueButton {
+  width: 200px;
+  height: 50px;
+  border: none;
+
+  padding: 7px;
+
+  text-align: center;
+  vertical-align: middle;
+
+  font-size: 20px;
+  color: white;
+  font-family: "Varela Round";
+  background-color: rgb(48 174 48);
 }
-.ContinueButton:hover{
-    background-color: rgb(90, 148, 90);
+.ContinueButton:hover {
+  background-color: rgb(26 94 26);
 }
-.SelectedButton{
-    background-color: rgb(252, 246, 162);
+.SelectedButton {
+  background-color: rgb(252, 246, 162);
 }
-.SelectedButton:hover{
-    background-color: rgb(197, 185, 116);
+.SelectedButton:hover {
+  background-color: rgb(197, 185, 116);
 }
-button{
-    outline: none;
+button {
+  outline: none;
 }
-.header{
-    font-size: 30px;
-    margin: 3px;
-    font-family: 'Varela Round';
+.header {
+  font-size: 30px;
+  margin: 3px;
+  font-family: "Varela Round";
 }
-.link{
-    font-size: 20px;
-    margin: 0px;
-    font-family: 'Varela Round';
+.link {
+  font-size: 20px;
+  margin: 0px;
+  font-family: "Varela Round";
+}
+.loading {
+  width: 200px;
+  border: none;
+  top: 20px;
+  height: 50px;
+
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-bottom: 0px;
+  padding-top: 25px;
+
+  font-size: 20px;
+
+  text-align: center;
+  vertical-align: middle;
+
+  color: white;
+  font-family: "Varela Round";
+  background-color: rgb(65, 65, 65);
 }
