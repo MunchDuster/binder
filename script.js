@@ -6,6 +6,8 @@ const pageLoading = document.getElementById("loading");
 const header = document.getElementById("header");
 const link = document.getElementById("link");
 
+iframe.addEventListener("load", onIframeLoad);
+
 var lastButton;
 function openPage(button) {
   if (lastButton != button) {
